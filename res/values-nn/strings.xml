@@ -33,7 +33,7 @@
   <!--Toaster-->
   <string name="toast_no_changes">Du har ikkje endra noko enno…</string>
   <string name="toast_upload_success">Opplasting til OSM er ferdig.</string>
-  <string name="toast_not_in_edit_range">Zoom inn for å retta (volum opp / ned eller lens/shift)</string>
+  <string name="toast_not_in_edit_range">Zoom inn for å endra (volum opp / ned eller lens/shift)</string>
   <string name="toast_save_done">Lagring lukkast</string>
   <string name="toast_not_in_bug_range">Zoom inn for å leggja til feilrapport (volum opp/ned eller lens/shift)</string>
   <string name="toast_export_failed">Eksport feila</string>
@@ -56,18 +56,15 @@
   <!--Strings in LocationPicker-->
   <string name="location_headline">Les inn område</string>
   <string name="location_choose_radius">Velj radius:</string>
-  <string name="location_default_radius">300 m</string>
+  <string name="location_default_radius">300m</string>
   <string name="location_last_text">Siste kjente posisjon:</string>
   <string name="location_current_text">Noverande posisjon:</string>
   <string name="location_text_unknown">ukjent</string>
   <string name="location_last_text_parameterized">Siste kjente posisjon: %1$s</string>
   <string name="location_current_text_parameterized">Noverande posisjon: %1$s</string>
-  <string name="location_text_metadata_location">Lat %1$4g, Lon %2$4g %3$s</string>
   <string name="location_text_metadata_accuracy">Nøyaktigheit %1$1g meter,</string>
-  <string name="location_map_text">Frå kart:</string>
+  <string name="location_map_text">Frå kart (kjem snart):</string>
   <string name="location_coordinates_text">Frå koordinat:</string>
-  <string name="location_lat_label">Lat:</string>
-  <string name="location_lon_label">Lon:</string>
   <string name="location_load_button">Hent!</string>
   <string name="location_button_no_location">Ikkje hent noko</string>
   <string name="location_label_no_location">(ikkje tilrådd)</string>
@@ -82,7 +79,7 @@
   <string name="menu_erase">Slett node</string>
   <string name="menu_split">Kløyv</string>
   <string name="menu_append">Hald fram</string>
-  <string name="menu_tag">Endre tags</string>
+  <string name="menu_tag">Endre tagger</string>
   <string name="menu_openstreetbug">Legg inn OpenStreetBug</string>
   <string name="menu_gps">GPS…</string>
   <string name="menu_gps_show">Vis plassering</string>
@@ -137,14 +134,14 @@
   <string name="config_password_title">OpenStreetMap-passord</string>
   <string name="config_password_summary">Må ikkje forvekslast med Wiki-passordet. Obs: Det blir lagra og sendt som lesbar tekst!</string>
   <string name="config_category_gps">GPS-instillingar</string>
-  <string name="config_gps_distance_title">Minste GPS-avstand</string>
-  <string name="config_gps_distance_summary">Minste avstand mellom GPS-målingar, i meter (med komma). Lågare verdi gjev kortare batteritid.</string>
-  <string name="config_gps_interval_title">Minste GPS-intervall</string>
-  <string name="config_gps_interval_summary">Minste tidsintervall for GPS-målingar, i millisekund. Lågare verdi gjev kortare batteritid.</string>
+  <string name="config_gps_distance_title">Minimum GPS-avstand</string>
+  <string name="config_gps_distance_summary">Kortaste avstand mellom GPS-målingar, i meter (med komma). Lågare verdi gjev kortare batteritid.</string>
+  <string name="config_gps_interval_title">Minimum GPS-intervall</string>
+  <string name="config_gps_interval_summary">Kortaste tidsintervall for GPS-målingar, i millisekund. Lågare verdi gjev kortare batteritid.</string>
   <string name="config_category_info">Om</string>
   <string name="config_advancedprefs">Avanserte innstillingar</string>
   <string name="config_forceContextMenu_title">Bruk alltid snøggmeny</string>
-  <string name="config_forceContextMenu_summary">Viss alltid snøggmeny i EasyEdit-modus dersom valet er fleirtydig.</string>
+  <string name="config_forceContextMenu_summary">Vis alltid snøggmeny i EasyEdit-modus dersom valet er fleirtydig.</string>
   <string name="config_licensebutton_title">Opphavsmenn og lisensar</string>
   <string name="config_licensebutton_summary">Vis informasjon om opphavsmenn og lisensar</string>
   <!--preset downloader messages-->
